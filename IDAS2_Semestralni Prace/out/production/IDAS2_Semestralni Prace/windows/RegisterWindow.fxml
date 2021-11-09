@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox alignment="CENTER" prefHeight="733.0" prefWidth="486.0" spacing="10.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="windows.RegisterWindowController">
+    <children>
+        <Label text="Avatar" />
+        <ImageView fx:id="imgAvatar" fitHeight="200.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" />
+        <Button mnemonicParsing="false" text="Avatar" />
+        <Label text="Jméno" />
+        <TextField fx:id="txtJmeno" promptText="Jmeno" />
+        <Label text="Příjmení" />
+        <TextField fx:id="txtPrijmeni" promptText="Prijmeni" />
+        <Label text="e-mail" />
+        <TextField fx:id="txtEmail" promptText="e-mail" />
+        <Label text="Heslo" />
+        <PasswordField fx:id="txtHeslo" promptText="Heslo" />
+        <MenuButton fx:id="mnRole" mnemonicParsing="false" text="Role" />
+        <Button mnemonicParsing="false" prefHeight="31.0" prefWidth="254.0" text="Registrovat" />
+        <Button mnemonicParsing="false" text="Zrušit" />
+    </children>
+</VBox>
